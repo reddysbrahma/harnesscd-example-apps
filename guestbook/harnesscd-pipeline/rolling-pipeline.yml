@@ -34,7 +34,7 @@ pipeline:
                   name: Rollback Rollout Deployment
                   identifier: rollbackRolloutDeployment
                   type: K8sRollingRollback
-                  timeout: 10m
+                  timeout: 11m
                   spec:
                     pruningEnabled: false
         tags: {}
